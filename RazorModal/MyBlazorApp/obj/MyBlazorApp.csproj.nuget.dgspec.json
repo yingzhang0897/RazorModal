@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/zhangying-macbookpro/Desktop/RazorModal/MyBlazorApp/MyBlazorApp.csproj": {}
+    "/Users/zhangying-macbookpro/Documents/BYU-Pathway /BYU_Idaho/fall 2024/cse325/RazorModal/RazorModal/MyBlazorApp/MyBlazorApp.csproj": {}
   },
   "projects": {
-    "/Users/zhangying-macbookpro/Desktop/RazorModal/FirstClassLibrary/FirstClassLibrary.csproj": {
+    "/Users/zhangying-macbookpro/Documents/BYU-Pathway /BYU_Idaho/fall 2024/cse325/RazorModal/RazorModal/MyBlazorApp/MyBlazorApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/zhangying-macbookpro/Desktop/RazorModal/FirstClassLibrary/FirstClassLibrary.csproj",
-        "projectName": "FirstClassLibrary",
-        "projectPath": "/Users/zhangying-macbookpro/Desktop/RazorModal/FirstClassLibrary/FirstClassLibrary.csproj",
+        "projectUniqueName": "/Users/zhangying-macbookpro/Documents/BYU-Pathway /BYU_Idaho/fall 2024/cse325/RazorModal/RazorModal/MyBlazorApp/MyBlazorApp.csproj",
+        "projectName": "MyBlazorApp",
+        "projectPath": "/Users/zhangying-macbookpro/Documents/BYU-Pathway /BYU_Idaho/fall 2024/cse325/RazorModal/RazorModal/MyBlazorApp/MyBlazorApp.csproj",
         "packagesPath": "/Users/zhangying-macbookpro/.nuget/packages/",
-        "outputPath": "/Users/zhangying-macbookpro/Desktop/RazorModal/FirstClassLibrary/obj/",
+        "outputPath": "/Users/zhangying-macbookpro/Documents/BYU-Pathway /BYU_Idaho/fall 2024/cse325/RazorModal/RazorModal/MyBlazorApp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/zhangying-macbookpro/.nuget/NuGet/NuGet.Config"
@@ -38,68 +38,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "Microsoft.AspNetCore.Components.Web": {
+            "My.FirstClassLibrary": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[0.1.0, )"
             }
           },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "/Users/zhangying-macbookpro/Desktop/RazorModal/MyBlazorApp/MyBlazorApp.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "/Users/zhangying-macbookpro/Desktop/RazorModal/MyBlazorApp/MyBlazorApp.csproj",
-        "projectName": "MyBlazorApp",
-        "projectPath": "/Users/zhangying-macbookpro/Desktop/RazorModal/MyBlazorApp/MyBlazorApp.csproj",
-        "packagesPath": "/Users/zhangying-macbookpro/.nuget/packages/",
-        "outputPath": "/Users/zhangying-macbookpro/Desktop/RazorModal/MyBlazorApp/obj/",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "/Users/zhangying-macbookpro/.nuget/NuGet/NuGet.Config"
-        ],
-        "originalTargetFrameworks": [
-          "net8.0"
-        ],
-        "sources": {
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
-            "projectReferences": {
-              "/Users/zhangying-macbookpro/Desktop/RazorModal/FirstClassLibrary/FirstClassLibrary.csproj": {
-                "projectPath": "/Users/zhangying-macbookpro/Desktop/RazorModal/FirstClassLibrary/FirstClassLibrary.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
           "imports": [
             "net461",
             "net462",

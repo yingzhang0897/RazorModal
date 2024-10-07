@@ -12,4 +12,7 @@
   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <SourceRoot Include="/Users/zhangying-macbookpro/.nuget/packages/" />
   </ItemGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)my.firstclasslibrary/0.1.0/buildTransitive/My.FirstClassLibrary.props" Condition="Exists('$(NuGetPackageRoot)my.firstclasslibrary/0.1.0/buildTransitive/My.FirstClassLibrary.props')" />
+  </ImportGroup>
 </Project>
